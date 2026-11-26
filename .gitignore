@@ -14,3 +14,5 @@ coverage/
 # Episode audio binaries (keep local/Drive, do not bloat repo)
 episodes/*/audio/music/*.mp3
 episodes/*/audio/chapters/*.wav
+episodes/*/audio/chapters_assembled/*.mp3
+episodes/*/audio/chapters/*.mp3
