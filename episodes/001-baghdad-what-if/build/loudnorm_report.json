@@ -1,0 +1,130 @@
+[
+  {
+    "file": "ch01.mp3",
+    "status": "ok",
+    "pre": {
+      "input_i": "-19.70",
+      "input_tp": "-1.67",
+      "input_lra": "3.10"
+    },
+    "post_verified": {
+      "input_i": "-14.50",
+      "input_tp": "-1.23",
+      "input_lra": "2.60",
+      "input_thresh": "-24.98",
+      "target_offset": "0.01"
+    }
+  },
+  {
+    "file": "ch02.mp3",
+    "status": "ok",
+    "pre": {
+      "input_i": "-19.65",
+      "input_tp": "-1.54",
+      "input_lra": "3.30"
+    },
+    "post_verified": {
+      "input_i": "-14.50",
+      "input_tp": "-1.14",
+      "input_lra": "2.40",
+      "input_thresh": "-24.98",
+      "target_offset": "0.01"
+    }
+  },
+  {
+    "file": "ch03.mp3",
+    "status": "ok",
+    "pre": {
+      "input_i": "-19.75",
+      "input_tp": "-1.54",
+      "input_lra": "3.50"
+    },
+    "post_verified": {
+      "input_i": "-14.47",
+      "input_tp": "-1.22",
+      "input_lra": "2.10",
+      "input_thresh": "-24.99",
+      "target_offset": "0.03"
+    }
+  },
+  {
+    "file": "ch04.mp3",
+    "status": "ok",
+    "pre": {
+      "input_i": "-19.61",
+      "input_tp": "-1.46",
+      "input_lra": "4.20"
+    },
+    "post_verified": {
+      "input_i": "-14.40",
+      "input_tp": "-1.17",
+      "input_lra": "2.40",
+      "input_thresh": "-24.95",
+      "target_offset": "-0.04"
+    }
+  },
+  {
+    "file": "ch05.mp3",
+    "status": "ok",
+    "pre": {
+      "input_i": "-19.63",
+      "input_tp": "-1.64",
+      "input_lra": "3.60"
+    },
+    "post_verified": {
+      "input_i": "-14.46",
+      "input_tp": "-1.16",
+      "input_lra": "2.30",
+      "input_thresh": "-25.13",
+      "target_offset": "0.01"
+    }
+  },
+  {
+    "file": "ch06.mp3",
+    "status": "ok",
+    "pre": {
+      "input_i": "-19.57",
+      "input_tp": "-1.48",
+      "input_lra": "3.50"
+    },
+    "post_verified": {
+      "input_i": "-14.38",
+      "input_tp": "-1.12",
+      "input_lra": "2.20",
+      "input_thresh": "-24.83",
+      "target_offset": "0.22"
+    }
+  },
+  {
+    "file": "ch07.mp3",
+    "status": "ok",
+    "pre": {
+      "input_i": "-19.73",
+      "input_tp": "-1.52",
+      "input_lra": "3.80"
+    },
+    "post_verified": {
+      "input_i": "-14.48",
+      "input_tp": "-1.31",
+      "input_lra": "2.30",
+      "input_thresh": "-25.01",
+      "target_offset": "-0.02"
+    }
+  },
+  {
+    "file": "ch08.mp3",
+    "status": "ok",
+    "pre": {
+      "input_i": "-19.69",
+      "input_tp": "-1.30",
+      "input_lra": "3.20"
+    },
+    "post_verified": {
+      "input_i": "-14.38",
+      "input_tp": "-1.26",
+      "input_lra": "2.50",
+      "input_thresh": "-24.86",
+      "target_offset": "-0.15"
+    }
+  }
+]

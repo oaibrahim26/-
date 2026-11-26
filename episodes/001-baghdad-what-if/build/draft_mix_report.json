@@ -1,0 +1,128 @@
+{
+  "total_duration_s": 766.45,
+  "chapters": [
+    {
+      "chapter": "ch01.mp3",
+      "duration_s": 51.68,
+      "start_s": 0
+    },
+    {
+      "chapter": "ch02.mp3",
+      "duration_s": 135.03,
+      "start_s": 51.68
+    },
+    {
+      "chapter": "ch03.mp3",
+      "duration_s": 102.02,
+      "start_s": 186.71
+    },
+    {
+      "chapter": "ch04.mp3",
+      "duration_s": 104.34,
+      "start_s": 288.73
+    },
+    {
+      "chapter": "ch05.mp3",
+      "duration_s": 108.03,
+      "start_s": 393.07
+    },
+    {
+      "chapter": "ch06.mp3",
+      "duration_s": 109.62,
+      "start_s": 501.1
+    },
+    {
+      "chapter": "ch07.mp3",
+      "duration_s": 83.3,
+      "start_s": 610.72
+    },
+    {
+      "chapter": "ch08.mp3",
+      "duration_s": 72.43,
+      "start_s": 694.02
+    }
+  ],
+  "transitions": [
+    {
+      "at_s": 51.68,
+      "type": "whoosh",
+      "file": "public/sfx/whoosh.wav",
+      "reason": "component/chapter transition sting"
+    },
+    {
+      "at_s": 186.71,
+      "type": "whoosh",
+      "file": "public/sfx/whoosh.wav",
+      "reason": "component/chapter transition sting"
+    },
+    {
+      "at_s": 288.73,
+      "type": "whoosh",
+      "file": "public/sfx/whoosh.wav",
+      "reason": "component/chapter transition sting"
+    },
+    {
+      "at_s": 393.07,
+      "type": "whoosh",
+      "file": "public/sfx/whoosh.wav",
+      "reason": "component/chapter transition sting"
+    },
+    {
+      "at_s": 501.1,
+      "type": "whoosh",
+      "file": "public/sfx/whoosh.wav",
+      "reason": "component/chapter transition sting"
+    },
+    {
+      "at_s": 610.72,
+      "type": "whoosh",
+      "file": "public/sfx/whoosh.wav",
+      "reason": "component/chapter transition sting"
+    },
+    {
+      "at_s": 694.02,
+      "type": "whoosh",
+      "file": "public/sfx/whoosh.wav",
+      "reason": "component/chapter transition sting"
+    }
+  ],
+  "music_plan": [
+    {
+      "range": "ch01-ch03",
+      "track": "Dark Tranquility - Anno Domini Beats.mp3",
+      "role": "main bed"
+    },
+    {
+      "range": "ch04-ch05",
+      "track": "Sinister - Anno Domini Beats.mp3",
+      "role": "tension (siege/fall/aftermath)"
+    },
+    {
+      "range": "ch06",
+      "track": "Warzone - Anno Domini Beats.mp3",
+      "role": "climax (counterfactual)"
+    },
+    {
+      "range": "ch07-ch08",
+      "track": "Dark Tranquility - Anno Domini Beats.mp3",
+      "role": "reflection/closing"
+    }
+  ],
+  "music_level": "~ -18dB under narration (volume 0.125) + sidechaingate keyed by narration so silence periods remain silent",
+  "crossfades_s": 8.0,
+  "draft_pre_master_measure": {
+    "input_i": "-14.37",
+    "input_tp": "0.22",
+    "input_lra": "2.30",
+    "input_thresh": "-24.88"
+  },
+  "final_master_measure": {
+    "input_i": "-14.32",
+    "input_tp": "-1.05",
+    "input_lra": "1.70",
+    "input_thresh": "-24.32",
+    "target_offset": "-0.01"
+  },
+  "final_master": "episodes/001-baghdad-what-if/audio/master/ep001_draft_mix_master.mp3",
+  "final_master_chain": "highpass=f=60,acompressor=threshold=-35dB:ratio=10:attack=1:release=60,alimiter=limit=0.708:attack=1:release=20,loudnorm=I=-13.5:TP=-2.0:LRA=11"
+}

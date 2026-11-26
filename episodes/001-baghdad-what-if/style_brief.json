@@ -1,0 +1,39 @@
+{
+  "episode_id": "EP001_BAGHDAD_WHAT_IF",
+  "version": "0.1-draft",
+  "brand_source": "src/brand/tokens.ts + BRAND.md (Ruwaq v2 Petrol Teal). V1 gold/charcoal FORBIDDEN.",
+  "palette": {
+    "primary": "#0B6E7A (petrol teal)",
+    "deep": "#084B57",
+    "light": "#C8DDE0",
+    "near_black": "#0E1A1C",
+    "off_white": "#E8EFF1"
+  },
+  "typography": {
+    "ar_display": "Amiri/Aref Ruqaa",
+    "ar_body": "IBM Plex Sans Arabic/Cairo",
+    "rtl": true
+  },
+  "motion": {
+    "no_linear": true,
+    "springs": "standard/gentle/snappy/heavy per brand system",
+    "transitions": [
+      "dissolve",
+      "crossfade"
+    ]
+  },
+  "visual_rules": [
+    "one component = one idea = ~8s",
+    "red only once for break/decline",
+    "slow camera, no hard cuts",
+    "RTL, no pure white on dark backgrounds",
+    "Ruwaq logo bug top-right always",
+    "fiction/counterfactual scenes show on-screen disclaimer"
+  ],
+  "audio": {
+    "narration": "voice-00 (ar, masculine/narration), spoken-words-only",
+    "music": "YouTube Audio Library approved only: Dark Tranquility main, Sinister tension, Warzone climax; ~ -18 dB under narration; crossfades; mandatory silence remains silent",
+    "sfx": "whoosh/boom ~1s at every component transition; scene SFX only where meaning needs",
+    "master": "-14 LUFS ±0.5, TP <= -1 dBTP, ebur128 measured"
+  }
+}

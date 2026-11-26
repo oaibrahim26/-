@@ -16,3 +16,7 @@ episodes/*/audio/music/*.mp3
 episodes/*/audio/chapters/*.wav
 episodes/*/audio/chapters_assembled/*.mp3
 episodes/*/audio/chapters/*.mp3
+
+# Ep001 generated audio intermediates
+episodes/001-baghdad-what-if/audio/chapters_normalized/
+episodes/001-baghdad-what-if/audio/master/
