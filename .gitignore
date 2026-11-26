@@ -20,3 +20,6 @@ episodes/*/audio/chapters/*.mp3
 # Ep001 generated audio intermediates
 episodes/001-baghdad-what-if/audio/chapters_normalized/
 episodes/001-baghdad-what-if/audio/master/
+
+# Remotion public render assets (large)
+public/audio/ep001/
