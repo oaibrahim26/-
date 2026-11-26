@@ -3,6 +3,7 @@ import { Composition } from 'remotion';
 import { BabZuwaylaRemotion } from '../docs/legacy/BabZuwaylaRemotion.tsx';
 import { RuwaqGeoRemotion } from './geo/RuwaqGeoRemotion.tsx';
 import { RuwaqMotionDemo } from './compositions/RuwaqMotionDemo.tsx';
+import { Ep001BaghdadWhatIf, EP001_DURATION } from './compositions/Ep001BaghdadWhatIf.tsx';
 
 export const RemotionRoot: React.FC = () => {
   return (
@@ -49,6 +50,16 @@ export const RemotionRoot: React.FC = () => {
         defaultProps={{
           showAnnotations: false,
         }}
+      />
+
+      {/* 3. Ep001 Baghdad "What If" — SCAFFOLD (replace sections with real scenes) */}
+      <Composition
+        id="Ep001BaghdadWhatIf"
+        component={Ep001BaghdadWhatIf}
+        durationInFrames={EP001_DURATION}
+        fps={30}
+        width={1920}
+        height={1080}
       />
     </>
   );

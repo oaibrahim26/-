@@ -10,3 +10,7 @@ coverage/
 !.env.example
 
 .aistudio/
+
+# Episode audio binaries (keep local/Drive, do not bloat repo)
+episodes/*/audio/music/*.mp3
+episodes/*/audio/chapters/*.wav
